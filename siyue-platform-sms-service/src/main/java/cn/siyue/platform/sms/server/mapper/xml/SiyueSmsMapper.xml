@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.siyue.platform.sms.server.mapper.SiyueSmsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.siyue.platform.sms.pojo.SiyueSms">
+        <id column="id" property="id" />
+        <result column="cellphone" property="cellphone" />
+        <result column="content" property="content" />
+        <result column="status" property="status" />
+        <result column="type" property="type" />
+        <result column="create_at" property="createAt" />
+    </resultMap>
+
+</mapper>
